@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: M Module
+Bundle-SymbolicName: m
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: lib/slf4j-api-1.7.5.jar,lib/jedis-4.3.0.jar,lib/slf4j-simple-1.7.5.jar,lib/commons-pool2-2.11.1.jar,lib/gson-2.10.jar,.
+Bundle-Vendor: TIBCO Software Inc.
+Export-Package: m
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",
+ com.tibco.bw.palette; filter:="(name=bw.generalactivities)",
+ com.tibco.bw.palette; filter:="(name=bw.java)"
+TIBCO-BW-Version: 2.6.1 V57 2021-02-13
+TIBCO-BW-Edition: bwcf
+TIBCO-BW-ApplicationModule: META-INF/module.bwm
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
+TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
+TIBCO-BW-JobSharedVariables: META-INF/module.jsv
